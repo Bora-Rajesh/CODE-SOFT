@@ -1,3 +1,6 @@
+//Task 1:
+//This is the java code to predict the random generating number with our assumption. And it also tell us that out assuming number is higher or lower than the generated number.
+//Number game
 import java.util.*;
 public class Rand extends subRandom{
     public static void main(String args[]){
