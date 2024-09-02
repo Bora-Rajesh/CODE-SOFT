@@ -1,3 +1,5 @@
+//Task 2:
+//This is the java code to calculate the grade of student by given input subject marks. And it will also prints that student is fail or pass.
 import java.util.Scanner;
 public class studentGradeCalculator
 {
