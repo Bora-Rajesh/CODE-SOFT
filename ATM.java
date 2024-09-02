@@ -1,3 +1,5 @@
+//Task 3:
+//This is the java code to do some operations with ATM machine such as Withdraw, Deposit and Check Balance.
 import java.util.Scanner;
 public class ATM{
         public static void main(String args[]){
@@ -32,6 +34,7 @@ public class ATM{
 }
 class UserAccount {
             Scanner s=new Scanner(System.in);
+            //Function for Withdraw
             double Withdraw(double am){
             System.out.println("Enter amount to Withdrawl: ");
             double wamount=s.nextDouble();
@@ -45,12 +48,14 @@ class UserAccount {
             }
             return 0;
         }
+        //Function for deposit
         double deposit(double am){
             System.out.println("Enter amount to deposit:");
             double damount=s.nextDouble();
             am+=damount;
             return am;
         }
+        //Function for checkBalance
         void checkBalance(double amount){
             System.out.println("The available balance :"+amount);
         }
